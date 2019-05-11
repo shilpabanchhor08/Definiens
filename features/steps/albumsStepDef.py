@@ -1,6 +1,7 @@
+import sys
+sys.path.append('C:/Users/sbanchhor/Automation/Definiens')
 from behave import *
-
-from actions.automationMain import getApiUrl, verifyApiResponse
+from actions import automationMain
 
 use_step_matcher("re")
 
