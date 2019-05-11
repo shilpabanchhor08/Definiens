@@ -1,0 +1,136 @@
+{
+  "uid" : "16ad7f040bc5c5d6",
+  "name" : "Albums -- @1.1 ",
+  "historyId" : "fb2b38cb9a62dfaa91d1b93425cbcbeb",
+  "time" : {
+    "start" : 1557612170232,
+    "stop" : 1557612172281,
+    "duration" : 2049
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given get Url \"albums\"",
+      "time" : {
+        "start" : 1557612170234,
+        "stop" : 1557612170636,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then i verify all album ID's must be unique for url \"albums\"",
+      "time" : {
+        "start" : 1557612170636,
+        "stop" : 1557612171037,
+        "duration" : 401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And i verify all album Title must be unique for url \"albums\"",
+      "time" : {
+        "start" : 1557612171037,
+        "stop" : 1557612171450,
+        "duration" : 413
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And i verify invalid album id \"1001\" using url \"albums\"",
+      "time" : {
+        "start" : 1557612171451,
+        "stop" : 1557612171871,
+        "duration" : 420
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And i verify invalid album title \"BSDK\" using url \"albums\"",
+      "time" : {
+        "start" : 1557612171872,
+        "stop" : 1557612172281,
+        "duration" : 409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Verifying positive and negative scenarios"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "fetch url",
+    "value" : "albums"
+  }, {
+    "name" : "input id",
+    "value" : "1001"
+  }, {
+    "name" : "input title",
+    "value" : "BSDK"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16ad7f040bc5c5d6.json",
+  "parameterValues" : [ "albums", "1001", "BSDK" ]
+}

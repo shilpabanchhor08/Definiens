@@ -1,0 +1,97 @@
+{
+  "uid" : "f9c47c146f4932ba",
+  "name" : "users -- @1.2 ",
+  "historyId" : "71be8bcc39b91061fb50db72aa803dad",
+  "time" : {
+    "start" : 1557593686749,
+    "stop" : 1557593691046,
+    "duration" : 4297
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given get \"users/1\" for Method \"DELETE\"",
+      "time" : {
+        "start" : 1557593686751,
+        "stop" : 1557593687192,
+        "duration" : 441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then i verify api status code for api method \"DELETE\" of url \"users/1\" is \"200\" and response body matches json \"{}\" for json input \"{}\"",
+      "time" : {
+        "start" : 1557593687192,
+        "stop" : 1557593691046,
+        "duration" : 3854
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "General API Testing for users"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api method",
+    "value" : "DELETE"
+  }, {
+    "name" : "fetch url",
+    "value" : "users/1"
+  }, {
+    "name" : "json input",
+    "value" : "{}"
+  }, {
+    "name" : "json response",
+    "value" : "{}"
+  }, {
+    "name" : "response code",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9c47c146f4932ba.json",
+  "parameterValues" : [ "DELETE", "users/1", "{}", "{}", "200" ]
+}

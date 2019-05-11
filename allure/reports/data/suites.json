@@ -1,0 +1,149 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "albums -- @1.1 ",
+    "uid" : "293b092800161236",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612123581,
+      "stop" : 1557612128421,
+      "duration" : 4840
+    },
+    "flaky" : false,
+    "parameters" : [ "GET", "albums/1", "{}", "{\"userId\": 1, \"id\": 1, \"title\": \"quidem molestiae enim\"}", "200" ]
+  }, {
+    "name" : "albums -- @1.2 ",
+    "uid" : "5f1682522a696738",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612128423,
+      "stop" : 1557612132879,
+      "duration" : 4456
+    },
+    "flaky" : false,
+    "parameters" : [ "DELETE", "albums/1", "{}", "{}", "200" ]
+  }, {
+    "name" : "albums -- @1.3 ",
+    "uid" : "3fe89cfd16da93f8",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612132883,
+      "stop" : 1557612137351,
+      "duration" : 4468
+    },
+    "flaky" : false,
+    "parameters" : [ "PUT", "albums/1", "{  \"userId\": 1,  \"id\": 1,  \"title\": \"shilpa1\"}", "{\"userId\": \"1\", \"id\": 1, \"title\": \"shilpa1\"}", "200" ]
+  }, {
+    "name" : "albums -- @1.4 ",
+    "uid" : "e7b082f24bd2ee68",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612137352,
+      "stop" : 1557612141823,
+      "duration" : 4471
+    },
+    "flaky" : false,
+    "parameters" : [ "POST", "albums", "{\"userId\": 1,\"id\": 10,\"title\": \"shilpa\"}", "{\"userId\": \"1\", \"id\": 101, \"title\": \"shilpa\"}", "201" ]
+  }, {
+    "name" : "albums -- @1.5 ",
+    "uid" : "6ac93667fd0d598",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612141828,
+      "stop" : 1557612146882,
+      "duration" : 5054
+    },
+    "flaky" : false,
+    "parameters" : [ "FILTER", "albums?userId=2", "{}", "[{\"userId\": 2, \"id\": 11, \"title\": \"quam nostrum impedit mollitia quod et dolor\"}, {\"userId\": 2, \"id\": 12, \"title\": \"consequatur autem doloribus natus consectetur\"}, {\"userId\": 2, \"id\": 13, \"title\": \"ab rerum non rerum consequatur ut ea unde\"}, {\"userId\": 2, \"id\": 14, \"title\": \"ducimus molestias eos animi atque nihil\"}, {\"userId\": 2, \"id\": 15, \"title\": \"ut pariatur rerum ipsum natus repellendus praesentium\"}, {\"userId\": 2, \"id\": 16, \"title\": \"voluptatem aut maxime inventore autem magnam atque repellat\"}, {\"userId\": 2, \"id\": 17, \"title\": \"aut minima voluptatem ut velit\"}, {\"userId\": 2, \"id\": 18, \"title\": \"nesciunt quia et doloremque\"}, {\"userId\": 2, \"id\": 19, \"title\": \"velit pariatur quaerat similique libero omnis quia\"}, {\"userId\": 2, \"id\": 20, \"title\": \"voluptas rerum iure ut enim\"}]", "200" ]
+  }, {
+    "name" : "albums -- @1.6 ",
+    "uid" : "34080f3e202e8a17",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612146884,
+      "stop" : 1557612151839,
+      "duration" : 4955
+    },
+    "flaky" : false,
+    "parameters" : [ "NESTED", "users/1/albums?id=2", "{}", "[{\"userId\": 1, \"id\": 2, \"title\": \"sunt qui excepturi placeat culpa\"}]", "200" ]
+  }, {
+    "name" : "users -- @1.1 ",
+    "uid" : "5dd0cecd5c7d5748",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612151848,
+      "stop" : 1557612156137,
+      "duration" : 4289
+    },
+    "flaky" : false,
+    "parameters" : [ "GET", "users/1", "{}", "{\"id\": 1, \"name\": \"Leanne Graham\", \"username\": \"Bret\", \"email\": \"Sincere@april.biz\", \"address\": {\"street\": \"Kulas Light\", \"suite\": \"Apt. 556\", \"city\": \"Gwenborough\", \"zipcode\": \"92998-3874\", \"geo\": {\"lat\": \"-37.3159\", \"lng\": \"81.1496\"}}, \"phone\": \"1-770-736-8031 x56442\", \"website\": \"hildegard.org\", \"company\": {\"name\": \"Romaguera-Crona\", \"catchPhrase\": \"Multi-layered client-server neural-net\", \"bs\": \"harness real-time e-markets\"}}", "200" ]
+  }, {
+    "name" : "users -- @1.2 ",
+    "uid" : "780af2fdbcb9c336",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612156141,
+      "stop" : 1557612160583,
+      "duration" : 4442
+    },
+    "flaky" : false,
+    "parameters" : [ "DELETE", "users/1", "{}", "{}", "200" ]
+  }, {
+    "name" : "users -- @1.3 ",
+    "uid" : "74365bbfb3083c94",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612160584,
+      "stop" : 1557612165450,
+      "duration" : 4866
+    },
+    "flaky" : false,
+    "parameters" : [ "NESTED", "users?email=Sincere@april.biz", "{}", "[{\"id\": 1, \"name\": \"Leanne Graham\", \"username\": \"Bret\", \"email\": \"Sincere@april.biz\", \"address\": {\"street\": \"Kulas Light\", \"suite\": \"Apt. 556\", \"city\": \"Gwenborough\", \"zipcode\": \"92998-3874\", \"geo\": {\"lat\": \"-37.3159\", \"lng\": \"81.1496\"}}, \"phone\": \"1-770-736-8031 x56442\", \"website\": \"hildegard.org\", \"company\": {\"name\": \"Romaguera-Crona\", \"catchPhrase\": \"Multi-layered client-server neural-net\", \"bs\": \"harness real-time e-markets\"}}]", "200" ]
+  }, {
+    "name" : "users -- @1.4 ",
+    "uid" : "5aabd8fcc66498f",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612165579,
+      "stop" : 1557612170228,
+      "duration" : 4649
+    },
+    "flaky" : false,
+    "parameters" : [ "FILTER", "users?id=5", "{}", "[{\"id\": 5, \"name\": \"Chelsey Dietrich\", \"username\": \"Kamren\", \"email\": \"Lucio_Hettinger@annie.ca\", \"address\": {\"street\": \"Skiles Walks\", \"suite\": \"Suite 351\", \"city\": \"Roscoeview\", \"zipcode\": \"33263\", \"geo\": {\"lat\": \"-31.8129\", \"lng\": \"62.5342\"}}, \"phone\": \"(254)954-1289\", \"website\": \"demarco.info\", \"company\": {\"name\": \"Keebler LLC\", \"catchPhrase\": \"User-centric fault-tolerant solution\", \"bs\": \"revolutionize end-to-end systems\"}}]", "200" ]
+  }, {
+    "name" : "Albums -- @1.1 ",
+    "uid" : "16ad7f040bc5c5d6",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612170232,
+      "stop" : 1557612172281,
+      "duration" : 2049
+    },
+    "flaky" : false,
+    "parameters" : [ "albums", "1001", "BSDK" ]
+  }, {
+    "name" : "users -- @1.1 ",
+    "uid" : "ffb85b77a29865ab",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1557612172283,
+      "stop" : 1557612173525,
+      "duration" : 1242
+    },
+    "flaky" : false,
+    "parameters" : [ "users", "BSDK.com" ]
+  } ]
+}

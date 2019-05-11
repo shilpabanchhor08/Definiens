@@ -1,0 +1,103 @@
+{
+  "uid" : "ffb85b77a29865ab",
+  "name" : "users -- @1.1 ",
+  "historyId" : "0473836073d35a85cd30ef08bd677808",
+  "time" : {
+    "start" : 1557612172283,
+    "stop" : 1557612173525,
+    "duration" : 1242
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given get Url \"users\"",
+      "time" : {
+        "start" : 1557612172285,
+        "stop" : 1557612172700,
+        "duration" : 415
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then i verify all user email ID's must be unique for url \"users\"",
+      "time" : {
+        "start" : 1557612172700,
+        "stop" : 1557612173119,
+        "duration" : 419
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And i verify invalid user email id \"BSDK.com\" using url \"users\"",
+      "time" : {
+        "start" : 1557612173119,
+        "stop" : 1557612173525,
+        "duration" : 406
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Verifying positive and negative scenarios"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "fetch url",
+    "value" : "users"
+  }, {
+    "name" : "input id",
+    "value" : "BSDK.com"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffb85b77a29865ab.json",
+  "parameterValues" : [ "users", "BSDK.com" ]
+}

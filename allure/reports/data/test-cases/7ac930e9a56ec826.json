@@ -1,0 +1,97 @@
+{
+  "uid" : "7ac930e9a56ec826",
+  "name" : "albums -- @1.5 ",
+  "historyId" : "c291167576eb2643f81d7c6f6cdaab9c",
+  "time" : {
+    "start" : 1557593673811,
+    "stop" : 1557593677932,
+    "duration" : 4121
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given get \"albums?userId=2\" for Method \"FILTER\"",
+      "time" : {
+        "start" : 1557593673813,
+        "stop" : 1557593674250,
+        "duration" : 437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then i verify api status code for api method \"FILTER\" of url \"albums?userId=2\" is \"200\" and response body matches json \"[{\"userId\": 2, \"id\": 11, \"title\": \"quam nostrum impedit mollitia quod et dolor\"}, {\"userId\": 2, \"id\": 12, \"title\": \"consequatur autem doloribus natus consectetur\"}, {\"userId\": 2, \"id\": 13, \"title\": \"ab rerum non rerum consequatur ut ea unde\"}, {\"userId\": 2, \"id\": 14, \"title\": \"ducimus molestias eos animi atque nihil\"}, {\"userId\": 2, \"id\": 15, \"title\": \"ut pariatur rerum ipsum natus repellendus praesentium\"}, {\"userId\": 2, \"id\": 16, \"title\": \"voluptatem aut maxime inventore autem magnam atque repellat\"}, {\"userId\": 2, \"id\": 17, \"title\": \"aut minima voluptatem ut velit\"}, {\"userId\": 2, \"id\": 18, \"title\": \"nesciunt quia et doloremque\"}, {\"userId\": 2, \"id\": 19, \"title\": \"velit pariatur quaerat similique libero omnis quia\"}, {\"userId\": 2, \"id\": 20, \"title\": \"voluptas rerum iure ut enim\"}]\" for json input \"{}\"",
+      "time" : {
+        "start" : 1557593674251,
+        "stop" : 1557593677932,
+        "duration" : 3681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "General API Testing for albums"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api method",
+    "value" : "FILTER"
+  }, {
+    "name" : "fetch url",
+    "value" : "albums?userId=2"
+  }, {
+    "name" : "json input",
+    "value" : "{}"
+  }, {
+    "name" : "json response",
+    "value" : "[{\"userId\": 2, \"id\": 11, \"title\": \"quam nostrum impedit mollitia quod et dolor\"}, {\"userId\": 2, \"id\": 12, \"title\": \"consequatur autem doloribus natus consectetur\"}, {\"userId\": 2, \"id\": 13, \"title\": \"ab rerum non rerum consequatur ut ea unde\"}, {\"userId\": 2, \"id\": 14, \"title\": \"ducimus molestias eos animi atque nihil\"}, {\"userId\": 2, \"id\": 15, \"title\": \"ut pariatur rerum ipsum natus repellendus praesentium\"}, {\"userId\": 2, \"id\": 16, \"title\": \"voluptatem aut maxime inventore autem magnam atque repellat\"}, {\"userId\": 2, \"id\": 17, \"title\": \"aut minima voluptatem ut velit\"}, {\"userId\": 2, \"id\": 18, \"title\": \"nesciunt quia et doloremque\"}, {\"userId\": 2, \"id\": 19, \"title\": \"velit pariatur quaerat similique libero omnis quia\"}, {\"userId\": 2, \"id\": 20, \"title\": \"voluptas rerum iure ut enim\"}]"
+  }, {
+    "name" : "response code",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ac930e9a56ec826.json",
+  "parameterValues" : [ "FILTER", "albums?userId=2", "{}", "[{\"userId\": 2, \"id\": 11, \"title\": \"quam nostrum impedit mollitia quod et dolor\"}, {\"userId\": 2, \"id\": 12, \"title\": \"consequatur autem doloribus natus consectetur\"}, {\"userId\": 2, \"id\": 13, \"title\": \"ab rerum non rerum consequatur ut ea unde\"}, {\"userId\": 2, \"id\": 14, \"title\": \"ducimus molestias eos animi atque nihil\"}, {\"userId\": 2, \"id\": 15, \"title\": \"ut pariatur rerum ipsum natus repellendus praesentium\"}, {\"userId\": 2, \"id\": 16, \"title\": \"voluptatem aut maxime inventore autem magnam atque repellat\"}, {\"userId\": 2, \"id\": 17, \"title\": \"aut minima voluptatem ut velit\"}, {\"userId\": 2, \"id\": 18, \"title\": \"nesciunt quia et doloremque\"}, {\"userId\": 2, \"id\": 19, \"title\": \"velit pariatur quaerat similique libero omnis quia\"}, {\"userId\": 2, \"id\": 20, \"title\": \"voluptas rerum iure ut enim\"}]", "200" ]
+}
