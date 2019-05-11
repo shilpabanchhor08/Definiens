@@ -1,25 +1,28 @@
 from behave import *
 
-from actions.automationMain import getApiResponse, getApiUrl
+from actions.automationMain import getApiUrl, verifyApiResponse
 
 use_step_matcher("re")
 
-@given('get "(.+)" with expected data in file propFile')
-def step_fetchUrl(context, fetchUrl):
+
+@given('get "(.+)" for Method "(.+)"')
+def step_impl(context, fetchUrl, apiMethod):
     """
     :type context: behave.runner.Context
     :type fetchUrl: str
-    :type propFile: str
+    :type apiMethod: str
     """
-
     getApiUrl(fetchUrl)
 
 
-@then('i verify api status code is "(.+)" and response body is not null from "(.+)"')
-def step_impl(context, responseCode, fetchURL):
+@then('i verify api status code for api method "(.+)" of url "(.+)" is "(.+)" and response body matches json "(.+)" for json input "(.+)"')
+def step_impl(context, apiMethod, fetchUrl, statusCode, jsonResponse, jsonInput):
     """
     :type context: behave.runner.Context
-    :type arg0: str
-    :type arg1: str
+    :type apiMethod: str
+    :type fetchUrl: str
+    :type statusCode: str
+    :type jsonResponse: str
+    :type jsonInput: str
     """
-    getApiResponse(responseCode, fetchURL)
+    verifyApiResponse(apiMethod, fetchUrl, statusCode, jsonResponse,jsonInput)
